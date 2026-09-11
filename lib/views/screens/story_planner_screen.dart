@@ -610,8 +610,8 @@ class _StoryPlannerScreenState extends ConsumerState<StoryPlannerScreen> {
                   shot,
                   style: const TextStyle(
                     fontSize: 11,
-                    color: Colors.white50,
-                  ),
+                    color: Colors.white54,
+                 ), 
                 ),
               )).toList(),
             ),
