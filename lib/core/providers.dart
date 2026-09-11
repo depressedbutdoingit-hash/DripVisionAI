@@ -4,7 +4,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import '../models/character.dart';
 import '../models/scene.dart';
 import '../models/user_profile.dart';
-import '../services/openrouter_service.dart';final tokenServiceProvider = Provider((ref) => TokenService());
+import '../services/openrouter_service.dart';
 import '../services/drip_engine_service.dart';
 import '../services/media_action_service.dart';
 import '../services/whisper_service.dart';
@@ -45,6 +45,7 @@ final generationGuardProvider = Provider((ref) => GenerationGuard());
 final promptEnhancerProvider = Provider((ref) => PromptEnhancerService());
 final videoStitchProvider = Provider((ref) => VideoStitchingService());
 final aiQueueProvider = Provider((ref) => AIQueueService());
+final tokenServiceProvider = Provider((ref) => TokenService());
 
 // New feature services
 final authServiceProvider = Provider((ref) => AuthService(FirebaseAuth.instance));
