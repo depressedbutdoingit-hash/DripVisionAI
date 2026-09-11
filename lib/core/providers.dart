@@ -31,6 +31,7 @@ import '../services/season_pass_service.dart';
 import '../services/drip_chain_service.dart';
 import '../services/style_dna_service.dart';
 import '../models/style_dna.dart';
+import '../services/ai_generation_service.dart';
 import 'env.dart';
 
 // Services
@@ -46,6 +47,7 @@ final promptEnhancerProvider = Provider((ref) => PromptEnhancerService());
 final videoStitchProvider = Provider((ref) => VideoStitchingService());
 final aiQueueProvider = Provider((ref) => AIQueueService());
 final tokenServiceProvider = Provider((ref) => TokenService());
+final aiGenerationServiceProvider = Provider((ref) => AIGenerationService());
 
 // New feature services
 final authServiceProvider = Provider((ref) => AuthService(FirebaseAuth.instance));

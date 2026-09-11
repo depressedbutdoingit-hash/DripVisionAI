@@ -8,5 +8,3 @@ class AIGenerationService {
     return 'https://example.com/generated_video.mp4';
   }
 }
-
-final aiGenerationServiceProvider = Provider((ref) => AIGenerationService());
