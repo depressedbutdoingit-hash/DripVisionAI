@@ -363,7 +363,7 @@ class _ProductionQueueScreenState extends ConsumerState<ProductionQueueScreen> {
                                   child: Text(
                                     scene.heading,
                                     style: TextStyle(
-                                      color: isCompleted || isCurrent ? Colors.white : Colors.white40,
+                                      color: isCompleted || isCurrent ? Colors.white : Colors.white38,
                                       fontWeight: FontWeight.w600,
                                       fontSize: 13,
                                     ),
@@ -418,7 +418,7 @@ class _ProductionQueueScreenState extends ConsumerState<ProductionQueueScreen> {
                                         issue.message,
                                         style: TextStyle(
                                           fontSize: 11,
-                                          color: Colors.white40,
+                                          color: Colors.white38,
                                         ),
                                       ),
                                     ),

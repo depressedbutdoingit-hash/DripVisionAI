@@ -256,7 +256,7 @@ class _StoryPlannerScreenState extends ConsumerState<StoryPlannerScreen> {
                             Text(
                               '(\$${cost.markedUpCostUsd.toStringAsFixed(4)})',
                               style: TextStyle(
-                                color: Colors.white40,
+                                color: Colors.white38,
                                 fontSize: 11,
                               ),
                             ),

@@ -116,7 +116,7 @@ class _CharacterClosetScreenState extends ConsumerState<CharacterClosetScreen> {
           const SizedBox(height: 8),
           Text(
             'Add outfits to build your character\'s wardrobe',
-            style: TextStyle(color: Colors.white20, fontSize: 12),
+            style: TextStyle(color: Colors.white24, fontSize: 12),
           ),
           const SizedBox(height: 24),
           ElevatedButton.icon(
@@ -193,7 +193,7 @@ class _CharacterClosetScreenState extends ConsumerState<CharacterClosetScreen> {
                 Text(
                   outfit.description,
                   style: TextStyle(
-                    color: Colors.white40,
+                    color: Colors.white38,
                     fontSize: 11,
                   ),
                   maxLines: 2,

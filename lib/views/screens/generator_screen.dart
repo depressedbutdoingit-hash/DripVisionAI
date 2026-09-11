@@ -180,7 +180,7 @@ class _DripVisionStudioScreenState extends ConsumerState<DripVisionStudioScreen>
           'DRIPVISION',
           style: TextStyle(
             color: DripTheme.nebulaCyan,
-            fontWeight: FontWeight.black,
+            fontWeight: FontWeight.w900,
             letterSpacing: 3,
             fontSize: 18,
             shadows: [

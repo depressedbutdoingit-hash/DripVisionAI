@@ -77,7 +77,7 @@ class _CustomOutfitCreatorState extends ConsumerState<CustomOutfitCreator> {
                   const SizedBox(height: 8),
                   Text(
                     'Create your own unique look. Costs 50 tokens to mint.',
-                    style: TextStyle(color: Colors.white40, fontSize: 13),
+                    style: TextStyle(color: Colors.white38, fontSize: 13),
                   ),
                   const SizedBox(height: 32),
 
@@ -128,7 +128,7 @@ class _CustomOutfitCreatorState extends ConsumerState<CustomOutfitCreator> {
                                   'Sketch, photo, or description',
                                   style: TextStyle(
                                     fontSize: 10,
-                                    color: Colors.white20,
+                                    color: Colors.white24,
                                   ),
                                 ),
                               ],
@@ -241,7 +241,7 @@ class _CustomOutfitCreatorState extends ConsumerState<CustomOutfitCreator> {
                         const SizedBox(height: 8),
                         Text(
                           'Let AI generate a concept image from your description. +20 tokens.',
-                          style: TextStyle(color: Colors.white40, fontSize: 12),
+                          style: TextStyle(color: Colors.white38, fontSize: 12),
                         ),
                         const SizedBox(height: 12),
                         OutlinedButton.icon(

@@ -188,7 +188,7 @@ class _AuthScreenState extends ConsumerState<AuthScreen> {
                                         fontWeight: FontWeight.w600,
                                         color: authState.isLogin
                                           ? DripTheme.cosmicTeal
-                                          : Colors.white40,
+                                          : Colors.white38,
                                       ),
                                     ),
                                   ),
@@ -218,7 +218,7 @@ class _AuthScreenState extends ConsumerState<AuthScreen> {
                                         fontWeight: FontWeight.w600,
                                         color: !authState.isLogin
                                           ? DripTheme.cosmicTeal
-                                          : Colors.white40,
+                                          : Colors.white38,
                                       ),
                                     ),
                                   ),
@@ -373,7 +373,7 @@ class _AuthScreenState extends ConsumerState<AuthScreen> {
           style: const TextStyle(color: Colors.white),
           decoration: InputDecoration(
             hintText: hint,
-            hintStyle: TextStyle(color: Colors.white20),
+            hintStyle: TextStyle(color: Colors.white24),
             prefixIcon: Icon(icon, color: Colors.white30, size: 20),
             filled: true,
             fillColor: Colors.white.withOpacity(0.03),

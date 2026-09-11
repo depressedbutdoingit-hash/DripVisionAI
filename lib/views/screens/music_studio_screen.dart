@@ -313,7 +313,7 @@ class _MusicStudioScreenState extends ConsumerState<MusicStudioScreen> {
                     Text(
                       '${_currentTrack!.genre} • ${_currentTrack!.durationSeconds}s',
                       style: TextStyle(
-                        color: Colors.white50,
+                        color: Colors.white54,
                         fontSize: 13,
                       ),
                     ),
@@ -371,7 +371,7 @@ class _MusicStudioScreenState extends ConsumerState<MusicStudioScreen> {
       onTap: onTap,
       child: Column(
         children: [
-          Icon(icon, color: Colors.white50, size: 24),
+          Icon(icon, color: Colors.white54, size: 24),
           const SizedBox(height: 4),
           Text(
             label,
