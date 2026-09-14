@@ -56,7 +56,6 @@ jobs:
     unzip -q /tmp/gradle.zip -d /tmp/gradle
     cd android
     /tmp/gradle/gradle-8.14/bin/gradle wrapper --gradle-version 8.14 --distribution-type bin
-
       - name: Build Android APK
         run: flutter build apk --release
       - name: Build Android APK
