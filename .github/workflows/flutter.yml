@@ -50,12 +50,12 @@ jobs:
         run: flutter pub get
       - name: Create CI env file
         run: touch .env
-      - name: Bootstrap Gradle 8.6
-        run: |
-          curl -fsSL https://services.gradle.org/distributions/gradle-8.6-bin.zip -o /tmp/gradle.zip
-          unzip -q /tmp/gradle.zip -d /tmp/gradle
-          cd android
-          /tmp/gradle/gradle-8.6/bin/gradle wrapper --gradle-version 8.6 --distribution-type bin
+      - name: Bootstrap Gradle 8.14
+  run: |
+    curl -fsSL https://services.gradle.org/distributions/gradle-8.14-bin.zip -o /tmp/gradle.zip
+    unzip -q /tmp/gradle.zip -d /tmp/gradle
+    cd android
+    /tmp/gradle/gradle-8.14/bin/gradle wrapper --gradle-version 8.14 --distribution-type bin
 
       - name: Build Android APK
         run: flutter build apk --release
