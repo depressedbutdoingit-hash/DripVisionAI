@@ -60,11 +60,11 @@ jobs:
         run: touch .env
 
       - name: Bootstrap Gradle 9.1
-  run: |
-    curl -fsSL https://services.gradle.org/distributions/gradle-9.1-bin.zip -o /tmp/gradle.zip
-    unzip -q /tmp/gradle.zip -d /tmp/gradle
-    cd android
-    /tmp/gradle/gradle-9.1/bin/gradle wrapper --gradle-version 9.1 --distribution-type bin
+        run: |
+          curl -fsSL https://services.gradle.org/distributions/gradle-9.1-bin.zip -o /tmp/gradle.zip
+          unzip -q /tmp/gradle.zip -d /tmp/gradle
+          cd android
+          /tmp/gradle/gradle-9.1/bin/gradle wrapper --gradle-version 9.1 --distribution-type bin
 
-- name: Build Android APK
-  run: flutter build apk --release
+      - name: Build Android APK
+        run: flutter build apk --release
