@@ -1,4 +1,7 @@
-import 'package:flutter/material.dart';
+# add: import 'main_navigation.dart';
+
+nano lib/views/screens/home_screen.dart
+# add: import 'main_navigation.dart';import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../core/theme.dart';
 import '../../core/providers.dart';

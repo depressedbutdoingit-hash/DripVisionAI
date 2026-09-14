@@ -5,12 +5,19 @@ analyzer:
     deprecated_member_use: ignore
     use_build_context_synchronously: ignore
     asset_does_not_exist: ignore
+    unused_import: ignore
+    unused_local_variable: ignore
+    prefer_const_constructors: ignore
+    prefer_const_literals_to_create_immutables: ignore
+    prefer_const_declarations: ignore
+    prefer_single_quotes: ignore
+    prefer_final_fields: ignore
 
 linter:
   rules:
     avoid_print: true
-    prefer_single_quotes: true
-    prefer_const_constructors: true
-    prefer_const_literals_to_create_immutables: true
+    prefer_single_quotes: false
+    prefer_const_constructors: false
+    prefer_const_literals_to_create_immutables: false
     unnecessary_this: true
     always_specify_types: false

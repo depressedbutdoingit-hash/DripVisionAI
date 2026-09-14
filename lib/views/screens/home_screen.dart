@@ -8,6 +8,7 @@ import '../widgets/cinematic_media_card.dart';
 import '../widgets/section_header.dart';
 import 'character_lab_screen.dart';
 import 'settings_screen.dart';
+import 'main_navigation.dart';
 
 class HomeScreen extends ConsumerWidget {
   const HomeScreen({super.key});

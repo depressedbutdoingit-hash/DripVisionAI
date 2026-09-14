@@ -1,7 +1,10 @@
+import '../../core/providers.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../core/theme.dart';
 import '../../models/character_dna.dart';
+import '../../models/scene.dart';
+import '../../models/character.dart';
 import '../../services/ai_generation_service.dart';
 import '../../services/continuity_service.dart';
 import '../../services/token_service.dart';

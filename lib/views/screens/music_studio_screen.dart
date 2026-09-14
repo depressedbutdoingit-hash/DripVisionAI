@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:audioplayers/audioplayers.dart';
 import '../../core/theme.dart';
+import '../../core/providers.dart';
 import '../../services/suno_service.dart';
 import '../../views/widgets/galaxy_background.dart';
 
